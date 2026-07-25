@@ -1,6 +1,0 @@
-<Project>
-  <PropertyGroup>
-    <!-- Copy this file to local.props and set your own game installation path. -->
-    <GameDir>C:\Path\To\Esports Manager 2026</GameDir>
-  </PropertyGroup>
-</Project>
