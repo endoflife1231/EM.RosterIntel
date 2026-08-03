@@ -38,10 +38,8 @@ if (-not (Test-Path -LiteralPath $dllPath)) {
 
 Copy-Item $dllPath (Join-Path $pluginFolder "EM.RosterIntel.dll")
 Copy-Item (Join-Path $repositoryRoot "docs\RELEASE_README.md") (Join-Path $pluginFolder "README.md")
-Copy-Item (Join-Path $repositoryRoot "INSTALL.md") (Join-Path $pluginFolder "INSTALL.md")
-Copy-Item (Join-Path $repositoryRoot "docs\INSTALL-RU.md") (Join-Path $pluginFolder "INSTALL-RU.md")
+Copy-Item (Join-Path $repositoryRoot "docs\RELEASE_README-RU.md") (Join-Path $pluginFolder "README-RU.md")
 Copy-Item (Join-Path $repositoryRoot "LICENSE") (Join-Path $pluginFolder "LICENSE.txt")
-Copy-Item (Join-Path $repositoryRoot "CHANGELOG.md") (Join-Path $pluginFolder "CHANGELOG.md")
 
 if (Test-Path -LiteralPath $zipPath) {
     Remove-Item -LiteralPath $zipPath -Force

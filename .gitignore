@@ -1,0 +1,38 @@
+# Build output
+**/bin/
+**/obj/
+artifacts/
+TestResults/
+
+# Local build configuration
+local.props
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# IDEs
+.vs/
+.idea/
+.vscode/
+_ReSharper*/
+*.DotSettings.user
+
+# BepInEx and game-local files
+BepInEx/
+interop/
+LogOutput.log
+LogOutput.txt
+*.cfg
+*.save
+
+# Publish binaries and packages as release assets, not source files
+*.dll
+*.pdb
+*.zip
+*.nupkg
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini

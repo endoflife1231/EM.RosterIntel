@@ -1,5 +1,7 @@
 # EM Roster Intel
 
+**English** | [Русский](README.ru.md)
+
 EM Roster Intel is an unofficial, read-only roster analytics mod for **Esports Manager 2026**. It evaluates the active roster, explains player roles, highlights weak points, suggests conservative bench swaps, and builds a sport-only Transfer Radar from teams you have viewed.
 
 > **Important:** Transfer Radar evaluates sporting fit only. It does not account for transfer fees, salary, contract length, buyout clauses, club willingness, or player interest.
@@ -51,7 +53,7 @@ To populate the radar, open several other teams' squad pages, then return to you
 1. Close the game.
 2. Install **BepInEx 6 for Unity IL2CPP x64** by following the [official IL2CPP installation guide](https://docs.bepinex.dev/master/articles/user_guide/installation/unity_il2cpp.html).
 3. Start the game once after installing BepInEx, then close it. The first IL2CPP run generates required files and may take longer than normal.
-4. Download `EM.RosterIntel-v1.0.0.zip` from the GitHub Releases page.
+4. Download `EM.RosterIntel-v1.0.0.zip` from the [GitHub Releases page](https://github.com/endoflife1231/EM.RosterIntel/releases/latest). Do not download GitHub's automatically generated “Source code” archives for installation.
 5. Extract the `EM.RosterIntel` folder into:
 
    ```text
@@ -149,18 +151,11 @@ Build references are resolved from the user's local BepInEx installation. See [B
 
 ## Screenshots
 
-Screenshots are not bundled in this initial repository. To add them later:
+![Roster overview](docs/screenshots/image_2026-07-25_23-35-56.png)
 
-1. save PNG files under `docs/screenshots/`;
-2. recommended names: `roster-overview.png`, `transfer-radar.png`, and `details-audit.png`;
-3. add Markdown images here, for example:
+![Roster details](docs/screenshots/image_2026-07-25_23-35-57.png)
 
-```markdown
-![Roster overview](docs/screenshots/roster-overview.png)
-![Transfer Radar](docs/screenshots/transfer-radar.png)
-```
-
-Use screenshots that do not expose personal paths, Steam account details, private save names, or unrelated overlays.
+![Transfer Radar](docs/screenshots/image_2026-07-25_23-35-57%20%282%29.png)
 
 ## Source provenance
 

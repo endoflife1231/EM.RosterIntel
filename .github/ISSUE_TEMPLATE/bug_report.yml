@@ -1,0 +1,51 @@
+name: Bug report
+description: Report a reproducible problem with EM Roster Intel
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Remove personal paths, account details, and unrelated log content before submitting.
+  - type: input
+    id: mod-version
+    attributes:
+      label: Mod version
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: game-version
+    attributes:
+      label: Esports Manager 2026 patch
+      placeholder: 1.0.21
+    validations:
+      required: true
+  - type: input
+    id: bepinex-version
+    attributes:
+      label: Complete BepInEx build identifier
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant BepInEx log section
+      render: text
